@@ -17,7 +17,7 @@ const skills: Skill[] = [
     category: ['Languages', 'ML Engineering'],
   },
   {
-    title: 'TypeScript',
+    title: 'R',
     competency: 5,
     category: ['Languages', 'Web Development'],
   },
@@ -26,6 +26,7 @@ const skills: Skill[] = [
     competency: 4,
     category: ['Languages', 'Databases'],
   },
+
   // AI & LLM
   {
     title: 'AI Agents',
@@ -33,12 +34,7 @@ const skills: Skill[] = [
     category: ['ML Engineering'],
   },
   {
-    title: 'LLM Evaluation',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'AI Red-teaming',
+    title: 'MCP Protocol',
     competency: 5,
     category: ['ML Engineering'],
   },
@@ -58,16 +54,6 @@ const skills: Skill[] = [
     category: ['ML Engineering'],
   },
   {
-    title: 'Vector Databases',
-    competency: 4,
-    category: ['ML Engineering', 'Databases'],
-  },
-  {
-    title: 'PyTorch',
-    competency: 4,
-    category: ['ML Engineering'],
-  },
-  {
     title: 'Pandas',
     competency: 5,
     category: ['ML Engineering', 'Data Engineering'],
@@ -79,46 +65,30 @@ const skills: Skill[] = [
     category: ['Web Development'],
   },
   {
-    title: 'FastAPI',
-    competency: 4,
-    category: ['Web Development'],
-  },
-  {
     title: 'Next.js',
     competency: 3,
     category: ['Web Development'],
   },
-  // Databases
+  // Lean Manufacturing
   {
-    title: 'PostgreSQL',
+    title: 'Six Sigma Green Belt',
     competency: 4,
     category: ['Databases'],
   },
   {
-    title: 'Redis',
+    title: 'Theory of Constraints',
     competency: 3,
     category: ['Databases'],
   },
-  // Infrastructure
   {
-    title: 'AWS',
-    competency: 4,
-    category: ['Infrastructure'],
-  },
-  {
-    title: 'Docker',
-    competency: 4,
-    category: ['Infrastructure'],
-  },
-  {
-    title: 'Kubernetes',
+    title: 'DMAIC',
     competency: 3,
-    category: ['Infrastructure'],
+    category: ['Databases'],
   },
   {
-    title: 'Observability',
-    competency: 4,
-    category: ['Infrastructure', 'ML Engineering'],
+    title: 'Quality Assurance',
+    competency: 3,
+    category: ['Databases'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
