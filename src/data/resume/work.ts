@@ -13,8 +13,8 @@ export interface Position {
 
 const work: Position[] = [
   {
-    name: 'Promptfoo',
-    position: 'Co-founder & CTO',
+    name: 'Corning Incorporated',
+    position: 'Supplier Quality Engineering Intern',
     url: 'https://corning.com',
     startDate: '2026-05-27',
     summary: `Supported four supplier quality and manufacturing projects at Corning, spanning quality systems, Databricks workflow development, 

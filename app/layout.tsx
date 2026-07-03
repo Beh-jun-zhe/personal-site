@@ -12,7 +12,6 @@ import {
   SITE_IMAGE_DIMENSIONS,
   SITE_IMAGE_PATH,
   SITE_URL,
-  TWITTER_HANDLE,
 } from '@/lib/utils';
 import './tailwind.css';
 
@@ -42,13 +41,13 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
   keywords: [
     AUTHOR_NAME,
-    'OpenAI',
-    'Promptfoo',
-    'agent security',
-    'LLM security',
-    'machine learning',
-    'startup founder',
-    'YC',
+    'industrial engineering',
+    'supplier quality',
+    'manufacturing',
+    'operations',
+    'AI systems',
+    'University at Buffalo',
+    'Corning',
   ],
   authors: [{ name: AUTHOR_NAME }],
   creator: AUTHOR_NAME,
@@ -71,8 +70,6 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: TWITTER_HANDLE,
-    creator: TWITTER_HANDLE,
     title: AUTHOR_NAME,
     description: SITE_DESCRIPTION,
     images: [SITE_IMAGE_PATH],
