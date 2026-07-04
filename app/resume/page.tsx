@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Courses from '@/components/Resume/Courses';
 import Education from '@/components/Resume/Education';
 import Experience from '@/components/Resume/Experience';
-import References from '@/components/Resume/References';
+import LetsConnect from '@/components/Resume/LetsConnect';
 import ResumeNav from '@/components/Resume/ResumeNav';
 import Skills from '@/components/Resume/Skills';
 import PageWrapper from '@/components/Template/PageWrapper';
@@ -55,7 +55,7 @@ export default function ResumePage() {
           </section>
 
           <section id="references" className="resume-section">
-            <References />
+            <LetsConnect />
           </section>
         </div>
       </section>

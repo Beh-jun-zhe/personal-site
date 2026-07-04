@@ -8,32 +8,24 @@ import { StatData } from '../../components/Stats/types';
  */
 const data: StatData[] = [
   {
-    label: 'Stars this repository has on github',
-    key: 'stargazers_count',
-    link: 'https://github.com/Beh-jun-zhe/personal-site/stargazers',
+    label: 'Cups of coffee consumed',
+    value: 'Too many',
   },
   {
-    label: 'Number of people watching this repository',
-    key: 'subscribers_count',
-    link: 'https://github.com/Beh-jun-zhe/personal-site/stargazers',
+    label: 'Awards and scholarships',
+    value: '2',
   },
   {
-    label: 'Number of forks',
-    key: 'forks',
-    link: 'https://github.com/Beh-jun-zhe/personal-site/network',
+    label: 'Languages spoken',
+    value: '4',
   },
   {
-    label: 'Number of spoons',
+    label: 'Times my code worked on the first try',
     value: '0',
   },
   {
-    label: 'Number of linter warnings',
-    value: '0', // enforced via github workflow
-  },
-  {
-    label: 'Open github issues',
-    key: 'open_issues_count',
-    link: 'https://github.com/Beh-jun-zhe/personal-site/issues',
+    label: 'Browser tabs currently open',
+    value: '36',
   },
   {
     label: 'Last updated at',

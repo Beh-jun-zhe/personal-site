@@ -15,9 +15,9 @@ export default function Hero() {
         </h1>
 
         <p className="hero-tagline">
-          Supplier Quality Engineering Intern{'Corning Inc.'}
+          Supplier Quality Engineering Intern at
           <a href="https://www.corning.com" className="hero-highlight">
-            Corning Inc.
+            Corning Incorporated
           </a>
         </p>
 

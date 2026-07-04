@@ -1,19 +1,19 @@
 import { render, screen } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 
-import References from '../../Resume/References';
+import LetsConnect from '../../Resume/LetsConnect';
 
-describe('References', () => {
+describe('LetsConnect', () => {
   it('renders the references section', () => {
-    render(<References />);
+    render(<LetsConnect />);
 
     expect(
-      screen.getByText(/references available upon request/i),
+      screen.getByText(/Challenge me with your crazy idea/i),
     ).toBeInTheDocument();
   });
 
   it('has a link to the contact page', () => {
-    render(<References />);
+    render(<LetsConnect />);
 
     const link = screen.getByRole('link', {
       name: /get in touch/i,
@@ -22,16 +22,16 @@ describe('References', () => {
   });
 
   it('has an anchor for navigation', () => {
-    render(<References />);
+    render(<LetsConnect />);
 
-    const anchor = document.getElementById('references');
+    const anchor = document.getElementById('connect');
     expect(anchor).toBeInTheDocument();
   });
 
   it('displays as minimal inline text', () => {
-    render(<References />);
+    render(<LetsConnect />);
 
-    const paragraph = screen.getByText(/references available upon request/i);
+    const paragraph = screen.getByText(/Challenge me with your crazy idea/i);
     expect(paragraph.tagName).toBe('P');
   });
 });

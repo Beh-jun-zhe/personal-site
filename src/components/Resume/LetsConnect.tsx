@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-export default function References() {
+export default function LetsConnect() {
   return (
-    <div className="references">
-      <div className="link-to" id="references" />
+    <div className="connect">
+      <div className="link-to" id="connect" />
       <p className="text-sm text-[var(--color-fg-light)] text-center">
-        References available upon request.{' '}
+        Challenge me with your crazy idea.{' '}
         <Link
           href="/contact"
           className="font-medium text-[var(--color-accent)] hover:text-[var(--color-fg-bold)] transition-colors duration-150"
