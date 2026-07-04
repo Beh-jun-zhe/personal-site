@@ -29,7 +29,7 @@ export default function ResumePage() {
           <p className="resume-summary">
             Industrial Engineering student at the University at Buffalo with a
             Computer Science background, currently working as a Supplier Quality
-            Engineering Intern at Corning. Interested in AI systems,
+            Engineering Intern at Corning Incorporated. Interested in AI systems,
             manufacturing, supplier quality, operations, and building useful
             tools that create real-world impact.
           </p>

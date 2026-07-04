@@ -4,7 +4,7 @@ I solve problems, design systems, and build teams across AI, operations, and inf
 
 I am currently an Industrial Engineering student at the University at Buffalo with a Computer Science background. I am also a Supplier Quality Engineering Intern at Corning, where I work on quality, data, and manufacturing-related projects. Outside of class and work, I serve as the IISE Secretary and am a member of ISM.
 
-I am interested in building AI systems that create real-world impact, especially in manufacturing, supplier quality, and operations. I enjoy working at the intersection of technical problem solving, statistical analysis, modeling systems, and forward deployed engineering — bringing ideas from concept to something people can actually use.
+I am interested in building AI systems that create real-world impact, especially in manufacturing, supplier quality, and operations. I enjoy working at the intersection of technical problem solving, statistical analysis, modeling systems, and forward deployed engineering- bringing ideas from concept to something people can actually use.
 
 # What I'm Working On
 

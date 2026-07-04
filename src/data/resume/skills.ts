@@ -62,7 +62,7 @@ const skills: Skill[] = [
   },
   {
     title: 'Next.js',
-    competency: 3,
+    competency: 4,
     category: ['Web Development'],
   },
   // Lean Manufacturing
@@ -73,17 +73,17 @@ const skills: Skill[] = [
   },
   {
     title: 'Theory of Constraints',
-    competency: 3,
+    competency: 4,
     category: ['Lean Manufacturing'],
   },
   {
     title: 'DMAIC',
-    competency: 3,
+    competency: 4,
     category: ['Lean Manufacturing'],
   },
   {
     title: 'Quality Assurance',
-    competency: 3,
+    competency: 4,
     category: ['Lean Manufacturing'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
